@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ketania/static/css/main.77cb333b.css",
+    "main.js": "/Ketania/static/js/main.0d62890e.js",
+    "static/js/787.c98ac3af.chunk.js": "/Ketania/static/js/787.c98ac3af.chunk.js",
+    "static/media/hero.png": "/Ketania/static/media/hero.9829f2b6937b30b7de6f.png",
+    "static/media/swiftifyIcon.png": "/Ketania/static/media/swiftifyIcon.8f936f5bcc71a696f307.png",
+    "static/media/aboutimg.png": "/Ketania/static/media/aboutimg.bc74600a298e003be318.png",
+    "static/media/handsupIcon.png": "/Ketania/static/media/handsupIcon.98bfb88d67dea512e6f7.png",
+    "static/media/scrollTrollIcon.png": "/Ketania/static/media/scrollTrollIcon.539b9600188755f2478b.png",
+    "static/media/ketania-govender-resume.pdf": "/Ketania/static/media/ketania-govender-resume.fec45fc8d3ed75e749ac.pdf",
+    "static/media/Mindstaydemo-x326V.ttf": "/Ketania/static/media/Mindstaydemo-x326V.9765e0712817190b064a.ttf",
+    "static/media/futura medium bt.ttf": "/Ketania/static/media/futura medium bt.4e762c29ef7b44ca51cb.ttf",
+    "index.html": "/Ketania/index.html",
+    "main.77cb333b.css.map": "/Ketania/static/css/main.77cb333b.css.map",
+    "main.0d62890e.js.map": "/Ketania/static/js/main.0d62890e.js.map",
+    "787.c98ac3af.chunk.js.map": "/Ketania/static/js/787.c98ac3af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77cb333b.css",
+    "static/js/main.0d62890e.js"
+  ]
+}
