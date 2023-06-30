@@ -1,38 +1,307 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Mindstay";
+  src: local("Mindstay Demo"),
+    url("./fonts/Mindstaydemo-x326V.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Futura";
+  src: local("Futura Medium"),
+    url("./fonts/futura medium bt.ttf") format("truetype");
+}
+.App{
+  background-color: #F5EEDD;
+}
+body{
+  background-color: #F5EEDD;
+}
+h1{
+  font-family: 'Mindstay', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Navigation bar and Menu */
+.navBar{
+  display: flex;
+  width: 100%;
+  padding: 20px;
+}
+.navTitle{
+  display: flex;
+  flex: 70%;
+  text-decoration: none;
+  font-family: 'Mindstay', serif;
+  color: #D73B13;
+  font-size: 70px;
+}
+.navUL{
+  display: flex;
+  flex: 35%;
+  list-style: none;
+}
+.navLi{
+  margin: 0px 30px 0px 30px;
+  font-family: 'Futura'; 
+}
+.navLink{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+transition: ease-in-out 0.3s;
+}
+.navLink:hover{
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: ease-in-out 0.3s;
+}
+/* Footer */
+footer{
+  display: flex;
+  margin: 10px;
+  flex: 60%;
+}
+.footerTitle{
+  font-family: 'Mindstay';
+}
+.footerList{
+  display: flex;
+  list-style: none;
+  position: relative;
+  color: black;
+  margin-left: 1000px;
+}
+.footerIcons{
+  color: black;
+}
+/* Home Page */
+.homeMain{
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.heroTitle{
+  font-family: 'Futura';
+  font-size: 64px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: right;
+}
+.underlinedName{
+  font-family: 'Mindstay';
+  color: #D73B13;
+  font-size: 90px;
+  text-decoration: wavy;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 10px;
+  font-style: normal;
+}
+.redHero{
+  font-style: normal;
+  font-family: 'Mindstay';
+    color: #D73B13;
+    font-size: 90px;
+}
+.homeSummary{
+  max-width: 800px;
+  margin-left: 50px;
+  text-align: right;
+  font-family: 'Futura';
+  font-size: 24px;
+  transform: translateY(-60px);
+}
+.redText{
+color: #D73B13;
+text-decoration: underline;
+font-style: normal;
+text-underline-offset: 3px;
+}
+.redTextS{
+  color: #D73B13;
+}
+.heroImg{
+  width: 50%;
+  transform: translateY(-50px);
+}
+.scrollDown{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-decoration: none;
+  color: #D73B13;
+  font-family: 'Mindstay';
+  font-size: 32px;
+  z-index: 10;
+  transform: translateY(-150px);
 }
-
-.App-link {
-  color: #61dafb;
+.scrollDown:hover{
+color: black;
 }
+.downHome{
+  font-size: large;
+}
+/* Work Selection */
+.workTitle{
+  font-size: 96px;
+  color: #D73B13;
+  font-weight: 400;
+  margin-left: 100px;
+}
+.featuredTitle{
+  margin-left: 50px;
+  font-size: 64px;
+  border-bottom: 2px solid black;
+  font-weight: 300;
+  width: 90%;
+  
+}
+.workItem{
+display: flex;
+padding: 25px;
+}
+.workItemImage{
+  width: 40%;
+}
+.workItemCopy{
+  padding-left: 50px;
+  transform: translateY(-60px);
+}
+.workItemTitle{
+  font-size: 64px;
+  font-weight: 200;
+}
+.workItemSummary{
+  width: 500px;
+  font-family: 'Futura';
+  font-size: 24px;
+  transform: translateY(-50px);
+}
+.workItemLink{
+  text-decoration: none;
+  font-family: 'Mindstay';
+  font-size: 30px;
+  color: black;
+  border: 2px solid #D73B13;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+ 
+}
+.workLinkIcon{
+  transform: translateY(3px);
+  color: #D73B13;
+  transition: ease-in-out 0.3s;
+}
+.workLinkIcon:hover{
+  transform: translateX(10px) translateY(2px) ;
+  transition: ease-in-out 0.3s;
+}
+/* About Page */
+.aboutMain{
+  display: flex;
+  margin: 0px 20px 0px 20px;
+}
+.aboutImg{
+  border-radius: 20px;
+  margin: 0px 20px 0px 20px;
+}
+.aboutCopy{
+  margin: 0px 40px 0px 40px;
+}
+.aboutTitle{
+  font-size: 96px;
+  font-weight: 400;
+  color: #D73B13;
+  transform: translateY(-80px);
+}
+.aboutP{
+  transform: translateY(-100px);
+  font-family: 'Futura';
+  font-size: 16px;
+}
+.resumeDownload{
+  font-size: 32px;
+  color: black;
+  text-decoration: none;
+  font-family: 'Mindstay';
+  border: 2px solid #D73B13;
+  padding: 10px 25px 10px 25px;
+  border-radius: 30px;
+}
+.downloadIcon{
+  color: #D73B13;
+  transition: ease-in-out 0.3s;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.downloadIcon:hover{
+  transform: translateY(5px);
+  transition: ease-in-out 0.3s;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.skillTitle{
+  font-size: 96px;
+  font-weight: 400;
+  color: #D73B13;
+  margin: 50px 70px 0px 50px;
+}
+h2{
+  font-family: 'Mindstay';
+  font-weight: 300;
+  font-size: 48px;
+  padding-left: 50px;
+  transform: translateY(-40px);
+}
+.skillSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+.skillPill{
+  font-family: 'Futura';
+  font-size: 24px;
+  border: 2px solid black;
+  padding: 10px 15px 10px 15px;
+  border-radius: 25px;
+  margin: 10px;
+  
+}
+/* Contact Page */
+.contactEmail{
+  font-size: 80px;
+  font-family: 'Futura';
+  margin-left: 50px;
+  color: black;
+  transform: translateY(-50px);
+  display: flex;
+  transition: ease-in-out 0.3s;
+
+}
+.contactEmail:hover{
+  color: #D73B13;
+  transition: ease-in-out 0.3s;
+}
+.socialList{
+  margin-left: 50px;
+  font-size: 48px;
+  font-family: 'Mindstay';
+  font-weight: 400;
+}
+.socialUL{
+  display: flex;
+  list-style: none;
+  margin-bottom: 70px;
+}
+.contactLink{
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Futura';
+  color: black;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  transition: ease-in-out 0.3s;
+}
+.contactLink:hover{
+  /* text-decoration: underline;
+  text-underline-offset: 5px; */
+ border: 3px solid #D73B13;
+ color: #D73B13;
+  transition: ease-in-out 0.3s;
 }
