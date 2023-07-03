@@ -17,7 +17,7 @@ export default class HandsUp extends Component {
     return (
       <div className='h-entry workMain'>
 <img src={Banner} alt="Heads Up banner" className='workBanner' />
-<a href="https://snack.expo.dev/@ketania/handsup?platform=ios" target='_blank' rel='norefferrer' className='demoLink'> Demo</a>
+<a href="https://snack.expo.dev/@ketania/handsup?platform=ios" target='_blank' rel="noreferrer" className='demoLink'> Demo</a>
 <main className='workContent'>
 <section className='sectionHUTitle'>
   <p className='sectionHUName'> Overview</p>
@@ -167,7 +167,7 @@ Illustration</p>
 <p className='workP'>With the design decisions finalised, I created a new and fresh design show below. These wireframes resulted in what was developed at the end of the project. </p>
  <img src={HfHu} alt="High fidelity wireframes" className='flowHU'  style={{paddingBottom:'10%'}}/>
 <p className='endUPButton'>Check out a demo of Hands Up on Expo:</p>
- <a href="https://snack.expo.dev/@ketania/handsup?platform=ios" target='_blank' rel='norefferrer' className='demoLink' style={{transform:'translateY(-30px)'}}> Demo</a>
+ <a href="https://snack.expo.dev/@ketania/handsup?platform=ios" target='_blank' rel="noreferrer" className='demoLink' style={{transform:'translateY(-30px)'}}> Demo</a>
 
 
 <article className='discoverSection'>
