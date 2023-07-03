@@ -6,7 +6,7 @@ export default class Work extends Component {
   render() {
     return (
       <div id='work'>
-<h1 className='p-name workTitle'>Work</h1>
+<h1 className='p-name workTitle'>Check out the projects I've done!</h1>
   {WorkList.map((workItem, value)=>{
         return(
 
@@ -16,6 +16,8 @@ export default class Work extends Component {
            route ={workItem.route}
            button ={workItem.button}
            alt={workItem.alt}
+           tag1={workItem.tag1}
+           tag2={workItem.tag2}
            
            />
       

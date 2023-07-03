@@ -11,7 +11,9 @@ export const WorkList =[
     image: HandsUp,
    button: 'read more',
     alt: 'Mock up for the Hands Up mobile application'
-,route: "/HandsUp"
+,route: "/HandsUp",
+tag1: "UX",
+tag2: "Mobile Development"
 },
     {
     name: "Scroll Troll",
@@ -19,7 +21,9 @@ export const WorkList =[
     image: ScrollTroll,
    button: 'read more',
     alt: 'Mock up for the Scroll Troll wesbite'
-,route: "/ScrollTroll"
+,route: "/ScrollTroll",
+tag1: "UI",
+tag2: "ReactJS"
 },
     {
     name: "Swiftify",
@@ -27,7 +31,9 @@ export const WorkList =[
     image: Swiftify,
    button: 'read more',
     alt: 'Mock up for the Swiftify website'
-,route: "/Swiftify"
+,route: "/Swiftify",
+tag1: "UI",
+tag2: "D3.js"
 },
 
 ];

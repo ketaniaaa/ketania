@@ -23,6 +23,16 @@ h1{
   display: flex;
   width: 100%;
   padding: 20px;
+  z-index: 30;
+}
+.navbar-visible {
+  display: flex;
+    width: 100%;
+    padding: 20px;
+    z-index: 20;
+}
+.navbar-hidden {
+  display: none;
 }
 .navTitle{
   display: flex;
@@ -31,21 +41,25 @@ h1{
   font-family: 'Mindstay', serif;
   color: #D73B13;
   font-size: 70px;
+  z-index: inherit;
 }
 .navUL{
   display: flex;
   flex: 35%;
   list-style: none;
+  z-index: inherit;
 }
 .navLi{
   margin: 0px 30px 0px 30px;
   font-family: 'Futura'; 
+  z-index: inherit;
 }
 .navLink{
   text-decoration: none;
   font-size: 30px;
   color: black;
 transition: ease-in-out 0.3s;
+z-index: inherit;
 }
 .navLink:hover{
   text-decoration: underline;
@@ -159,6 +173,17 @@ padding: 25px;
 .workItemImage{
   width: 40%;
 }
+.cardTags{
+  display: flex;
+  font-family: 'Futura';
+  transform: translateY(-30px);
+}
+.tags{
+  border: 1.5px solid black;
+  border-radius: 25px;
+  margin: 1%;
+  padding: 10px 15px 10px 15px;
+}
 .workItemCopy{
   padding-left: 50px;
   transform: translateY(-60px);
@@ -182,6 +207,9 @@ padding: 25px;
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
  
+}
+.workItemLink:hover{
+color: #D73B13;
 }
 .workLinkIcon{
   transform: translateY(3px);
@@ -304,4 +332,253 @@ h2{
  border: 3px solid #D73B13;
  color: #D73B13;
   transition: ease-in-out 0.3s;
+}
+/* Hands Up */
+.workMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.workBanner{
+z-index: 1;
+
+object-fit: cover;
+height: 600px;
+width: 100%;
+}
+.demoLink{
+  font-family: 'Futura';
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  transform: translateY(50px);
+  font-size: 40px;
+  border: 4px solid black;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 35px 10px 35px;
+  transition: ease-in-out 0.3s;
+
+}
+.demoLink:hover{
+  border: 4px solid #af7070;
+  color: #af7070;
+  transition: ease-in-out 0.3s;
+}
+.workContent{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.sectionHUTitle{
+  border-left: 5px solid #D69898;
+  padding: 0% 0% 0% 5%;
+  margin-top: 5%;
+}
+.sectionHUName{
+color: #D69898;
+font-family: 'Futura';
+font-size: 24px;
+font-stretch: condensed;
+letter-spacing: -1px;
+}
+.sectionHupTitle{
+  font-family: 'Futura';
+  font-size: 36px;
+}
+.sectionHup1Title {
+  font-family: 'Futura';
+  font-size: 36px;
+  display: flex;
+ align-items: flex-start;
+  justify-content: flex-start;
+  transform: translateX(-270px);
+}
+.sectionHup2Title {
+  font-family: 'Futura';
+  font-size: 36px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: translateX(-300px);
+}
+.workP{
+  font-family: 'Futura';
+  color: black;
+font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+}
+.overviewHu{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  border: 2px solid #BB7373;
+  padding: 20px;
+  background: rgba(187, 115, 115, 0.01);
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    margin: 0px 0px 100px 0px;
+}
+.overviewTitle{
+  color: #BB7373;
+    font-size: 20px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.overviewSum{
+  color: #000;
+    font-size: 16px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    transform: translateY(-30px);
+}
+.sectionA{
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+.pinkTitle{
+  color: #BB7373;
+    font-size: 40px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    display: flex;
+      width: 868px;
+      flex-direction: column;
+      flex-shrink: 0;
+      margin-top: 50px;
+}
+.discoverSection{
+  background: #EAC4C4;
+  width: max-content;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+      flex-direction: column;
+}
+.pinkMain{
+  display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+.questionList{
+  font-family: "Futura";
+  color: #000;
+    font-size: 24px;
+   
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+
+}
+.interviewCards{
+  display: flex;
+
+}
+.intCard{
+display: flex;
+flex-direction: column;
+/* border: 2px solid red; */
+margin: 20px;
+padding: 30px;
+border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.intCardNum{
+display: flex;
+color: #af7070;
+  font-size: 16px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17.5px;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+  justify-content: flex-start;
+  width: 90%;
+  padding: 5px;
+  border-bottom: 2px solid #af7070;
+}
+.intCardTitle{
+ color: #AA5B5B;
+    font-size: 36px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    width: 300px;
+}
+.intCardDes{
+color: #000;
+  font-size: 15px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  line-height: 113.313%;
+  letter-spacing: 0.5px;
+}
+.flowHU{
+  object-fit: cover;
+  width: 900px;
+}
+.logoSection{
+  display: flex;
+}
+.handsLogo{
+  object-fit: cover;
+  width: 500px;
+}
+.endUPButton{
+  color: #BB7373;
+    font-size: 40px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.nextProject{
+  text-decoration: none;
+  font-family: 'Futura';
+  color: black;
+  font-size: 20px;
+  padding: 10px 30px 10px 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;}
+
+.scrollNext{
+  font-style: normal;
+  text-decoration: underline;
+}
+.nextProject:hover{
+  color: #AA5B5B;
+  border: #AA5B5B 2px solid;
+  border-radius: 50px;
+  cursor: pointer;
 }

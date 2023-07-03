@@ -37,6 +37,8 @@ human-friendly <SentimentSatisfiedAltIcon/></em> and <em className='redText'>vis
            route ={workItem.route}
            button ={workItem.button}
            alt={workItem.alt}
+           tag1={workItem.tag1}
+           tag2={workItem.tag2}
            
            />
       
