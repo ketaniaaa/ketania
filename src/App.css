@@ -172,6 +172,7 @@ padding: 25px;
 }
 .workItemImage{
   width: 40%;
+  object-fit: cover;
 }
 .cardTags{
   display: flex;
@@ -381,6 +382,7 @@ width: 100%;
   padding: 0% 0% 0% 5%;
   margin-top: 5%;
 }
+
 .sectionHUName{
 color: #D69898;
 font-family: 'Futura';
@@ -414,7 +416,7 @@ letter-spacing: -1px;
 font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.5px;
-  font-size: 24px;
+  font-size: 19px;
 }
 .overviewHu{
   display: flex;
@@ -581,4 +583,52 @@ color: #000;
   border: #AA5B5B 2px solid;
   border-radius: 50px;
   cursor: pointer;
+}
+
+/* /////////////SCROLL TROLL////////////////////////// */
+
+.sectionSTTitle {
+  border-left: 5px solid #7A9647;
+  padding: 0% 0% 0% 5%;
+  margin-top: 5%;
+}
+
+.sectionSTName {
+  color: #7A9647;
+  font-family: 'Futura';
+  font-size: 24px;
+  font-stretch: condensed;
+  letter-spacing: -1px;
+}
+
+.overviewSt {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: center;
+  border: 2px solid #89A557;
+  padding: 20px;
+  background: rgba(187, 115, 115, 0.01);
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  margin: 0px 0px 100px 0px;
+}
+
+.overviewTitleSt {
+  color: #89A557;
+  font-size: 20px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.overviewSumSt {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  transform: translateY(-30px);
 }
