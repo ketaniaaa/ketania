@@ -2,5 +2,5 @@
 
 - media queries for large screen, tablet and mobile
 - attach url 
-- case study pages
+- add art page: illustration/animation/modeling.
 - nav hover effects

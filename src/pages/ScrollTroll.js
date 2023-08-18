@@ -3,6 +3,10 @@ import Banner from '../assets/scrolltroll/tsbana.png';
 import dtWf from '../assets/scrolltroll/lowfidelitysc.png';
 import mWf from '../assets/scrolltroll/lowfidelitymobile.png';
 import fWf from '../assets/scrolltroll/lowfidelityforms.png';
+import hWf from '../assets/scrolltroll/hfsc.png';
+import hfWf from '../assets/scrolltroll/hfscf.png';
+import hfbWf from '../assets/scrolltroll/hfbwfsta.png';
+import contrast from '../assets/scrolltroll/contrast.png';
 
 
 export default class ScrollTroll extends Component {
@@ -14,7 +18,10 @@ export default class ScrollTroll extends Component {
 <main className='workContent'>
   <section className='sectionSTTitle'>
   <p className='sectionSTName'> Overview</p>
- <p className='workP'>
+ <p className='workP' style={{color: '#7A9647'}}>
+  ** Please Note: Scroll Troll is an interactive experience and to best understand the project, I suggest visiting the site using the above link.
+  </p>
+  <p className='workP'>
  Scroll Troll is an interactive artwork website made in ReactJS. Scroll Troll aims to subvert the rules of UX and UI in order to create a sub-optimal experience. The site takes inspiration from the subreddit 'r/BadUIBattles', where developers and designers 
  aim to create applications that oppose the rules we know for creating good user experiences by creating gameified components.
 </p>
@@ -80,9 +87,40 @@ The emotional journey of a website usually aims to predict the feelings of the u
 <p className='workP'>
   
 </p>
+<section className='sectionSTTitle sectionA'>
+  <p className='sectionSTName'>02 Design and Illustration</p>
+  <p className='sectionHupTitle'>Style Guide</p>
+
+
+</section>
+  <p className='sectionHup1Title'>Inspiration </p>
+
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/Inspiration.7709926f6356726dd4f8.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+  <p className='sectionHup1Title'>Colour Palette </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/palette.9c426040c08ebef674ed.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src={contrast} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+ 
+  <p className='sectionHup1Title'>Typography </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+  <p className='sectionHup1Title'>Logo and Icons </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+  <p className='sectionHup1Title'>Inputs and Buttons </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+  <p className='sectionHup1Title'>Layout  </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+
+
+
 
 <section className='sectionSTTitle sectionA'>
-  <p className='sectionSTName'>02 Layout</p>
+  <p className='sectionSTName'>03 Layout</p>
   <p className='sectionHupTitle'>Wireframing</p>
 
 
@@ -91,6 +129,12 @@ The emotional journey of a website usually aims to predict the feelings of the u
   <img src={dtWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
  <img src={mWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/> 
  <img src={fWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <p className='sectionHup1Title'>High-fidelity Wireframes </p>
+ <img src={hWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src={hfbWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+ <img src={hfWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
 
 </main>
 
