@@ -4,3 +4,5 @@
 - attach url 
 - add art page: illustration/animation/modeling.
 - nav hover effects
+- SEO and Metadata !!
+- finish scroll troll study

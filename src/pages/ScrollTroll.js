@@ -7,6 +7,7 @@ import hWf from '../assets/scrolltroll/hfsc.png';
 import hfWf from '../assets/scrolltroll/hfscf.png';
 import hfbWf from '../assets/scrolltroll/hfbwfsta.png';
 import contrast from '../assets/scrolltroll/contrast.png';
+import { Link } from 'react-router-dom';
 
 
 export default class ScrollTroll extends Component {
@@ -96,25 +97,56 @@ The emotional journey of a website usually aims to predict the feelings of the u
   <p className='sectionHup1Title'>Inspiration </p>
 
   <img src='https://ketaniaaa.github.io/scrolltroll/static/media/Inspiration.7709926f6356726dd4f8.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
-
+  <p className='workP'>A large influence on the site was neo-dadaist design. This design movement encompasses meme culture. A pattern that I noticed in memes was the use of infantile fonts such as Comic Sans and images that are badly drawn. I decided to draw inspiration from these concepts on my website. I liked the child-like quality of anti-design and meme formats so I have decided to use a simple palette with primary colours, hand-drawn images when brushes that look like pencil marks and a handwriting display font. </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="twitter inspiration "className='flowHU'  style={{paddingBottom:'10%'}}/>
+<p className='workP'>
+  As Scroll Troll is a parody social media site, it was natural to draw inspiration from existing social media sites. A main inspiration regarding layouts was Twitter. I have used inspiration from the Twitter profile layout to create my entry template. The entry image acts as the header and there is a profile picture icon to imitate a user profile picture along with the author name in the format of a handle. 
+</p>
   <p className='sectionHup1Title'>Colour Palette </p>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/palette.9c426040c08ebef674ed.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/palette.9c426040c08ebef674ed.png' alt="lsite colours "className='flowHU'  style={{paddingBottom:'10%'}}/>
+
+   <p className='workP'>
+  Since I wanted to maintain a childlike feel for the UI of the site, I wanted to keep the colour palette simple. I have chosen jewel tones of the primary colours for my main colours of the site. These colours can be seen featured in the text and images of the site. These colours also are dark and therefore easy to read against a light background.
+ </p>
+ <p className='workP'>
+  For my secondary colours and neutrals, I have chosen a green, a light beige and a charcoal tone. The green is featured on icons and drawings as the main logo features a green troll. The troll characters are consistently found across the site but are not used for text as the low contrast makes it hard to read. For the background, I have chosen a pale beige in the tonal family of yellow that I have chosen for the site. This tone gives a slight tint to the page while not competing with the darker blues and reds which make up the text for the site. This ensures that there is ample negative space and breathability for the user by using this colour as a background tone. 
+ </p>
   <img src={contrast} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
- 
+
+  <p className='workP'>
+Accessibility is of importance when creating a website. I therefore have chosen colours that meet the HCI's minimum contrast requirements. This is why the main text is in a dark blue that is easy to read.
+  </p>
   <p className='sectionHup1Title'>Typography </p>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
-
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/fonts.841308ff4c9610d83d68.png' alt="typography"className='flowHU'  style={{paddingBottom:'10%'}}/>
+<p className='workP'>For the display font, I have created my own font using Calligraphr. I simply drew out each letter and icon of the font and thus created Scroll Troll. I wanted a handwritten font that looked like a child had written out the letters yet upon failing to find a font that I both liked and was free to use I decided to use my own bad writing. I created the font using a 6b pencil brush in Procreate to create the rugged edges of the font. I have only used this font as a display font in headings, handles and large buttons because Scroll Troll is not suitable for long-form reading. </p>
+  <p className='workP'>The body font is ‘Outfit’. I chose Outfit because it had a high rating for accessibility and I wanted long-form content to be readable. This sans-serif font pairs well with the display font while not straining the reader. I chose a sans-serif for the body as I thought the look was friendlier than a serif font as these can have a more serious denotation(Arnold, 2022).  </p>
+  
   <p className='sectionHup1Title'>Logo and Icons </p>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/logodesign.307df31ef9d2d0c90122.png' alt="logo design"className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <p className='workP'>
+  The logo design again shows the child-like drawing theme I envisioned. I wanted to create a character for the brand Scroll Troll just as Duolingo has its bird Duo. The troll would therefore be the face of Scroll Troll. I used a pencil brush again and instead of using solid colouring, I made sure that the colouring of the troll was blotchy and showed gaps to enhance the juvenile look. 
 
+</p>
+
+  <p className='workP'>I then wanted to make sure that the logo could be recognisable. To do this I made silhouettes which can be used for tab icons and badges as the shape holds up well on a small scale.
+</p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/icons.89932c10c44c233b9ba5.png' alt="iconography"className='flowHU'  style={{paddingBottom:'10%'}}/>
+<p className='workP'>The icons used on Scroll Troll are largely hand drawn by me. The premade icons that I found online were too high-end for the aesthetic that I wanted to achieve on Scroll Troll and therefore decided to create my own. These custom icons fit the look of the font that is used throughout the website. This therefore, aids in visual cohesion and reinforces a clear visual identity for Scroll Troll.</p>
+<p className='workP'>These icons are used for scroll-to-top buttons, the mobile menu and the closing of modals and pop-ups. I have also created additional icons for fabs that are commonly used on social medias to indicate home, feed and inboxes. As Scroll Troll is not actually a functioning social media, these icons have not been used on this version of the site.</p>
   <p className='sectionHup1Title'>Inputs and Buttons </p>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/InputFields.75110d67910f86b46067.png' alt="inputs and progress bars for scroll troll  "className='flowHU'  style={{paddingBottom:'10%'}}/>
+<p className='workP'>
+As Spacescape is the main colour for text on the site, I wanted the input fields and the text to be coherent. For this, I have used a lighter hue of this shade of inactive inputs as this colour is lowly contrasted against the background. This change of colour also indicates to the user that there is a difference in the state because these inputs are not the same as the text colour. I have maintained convention with the error input boxes. For these, I have used red as red is conventionally used in design as a warning or error colour. 
+</p>
+<p className='workP'>
+  The progress bar uses green for active content as this is another convention of design. The green indicates that the user is on the right path and the grey which is of low contrast indicates lessened importance. This therefore established information hierarchy through colour. 
+  </p>
+  <p className='workP'> 
+Finally, I have used rounded buttons intentionally. Rounded corners allow the user to focus on the content of the button because the curves redirect the user's gaze towards the centre. The rounded button also creates a more positive vibe and requires less cognitive processing than squares. I have used square buttons for links in the internet artwork to subvert this experience in order to create a higher cognitive load for the user and make buttons harder to find.
 
-  <p className='sectionHup1Title'>Layout  </p>
-  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/twitterinspo.6b94578ca2bb912ee422.png' alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
-
+    </p>  <p className='sectionHup1Title'>Layout  </p>
+  <img src='https://ketaniaaa.github.io/scrolltroll/static/media/layouts.ff65155d97c8f426dbca.png' alt="layout of the site "className='flowHU'  style={{paddingBottom:'10%'}}/>
+<p className='workP'>For the layout of Scroll Troll, I have used a grid layout. This was chosen because the simple use of grid lines allows for application of traditional design principles such as creating focal points. In Scroll Troll, I have aligned main content along grid lines to allow for negative space on the sides of entry pages for breathability. This allows for a less invasive visual of the website. This layout also allows for content to be emphasized and be place in a convenient visual position that naturally demands attention from the user.</p>
 
 
 
@@ -123,8 +155,9 @@ The emotional journey of a website usually aims to predict the feelings of the u
   <p className='sectionSTName'>03 Layout</p>
   <p className='sectionHupTitle'>Wireframing</p>
 
-
 </section>
+<p className='workP'> I kept the wireframes with simple. For the main pages of the site, I maintained the principles of good UX and UI. The principles of UX are broken in the form design as I highlight back buttons over progress through high contrast and make form porocesses longer than necesssary, ultimately frustrating the user. The form diffuculty and bad design gradually increases and is tentatively shown in the wireframes. Please look at the demo for a better look. </p>
+<p className="workP"> A deeper dive into the design decisions and details seen in the wireframes can be found on <a href="https://ketaniaaa.github.io/scrolltroll/#/Wireframes#top"> Scroll Troll</a></p>
   <p className='sectionHup1Title'>Low-fidelity Wireframes </p>
   <img src={dtWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
  <img src={mWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/> 
@@ -134,9 +167,24 @@ The emotional journey of a website usually aims to predict the feelings of the u
   <img src={hfbWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
 
  <img src={hfWf} alt="low-fidelity wireframes of scroll troll "className='flowHU'  style={{paddingBottom:'10%'}}/>
+<section className='sectionSTTitle sectionA'>
+  <p className='sectionSTName'>04 Overview</p>
+  <p className='sectionHupTitle'>Final Outcome</p>
 
+</section>
+<p className='workP'> The final iteration of Scroll Troll was a success. After showing the site to some friends and family, I was satisfied with their frustration and so the site did exactly what I intended. 
+The navigation and feel of the other aspects of the site that were necessary for marking purposes were well designed and created a positive experience. This was contrasted by the annoyance of the form design which created a balance of both good and bad ( but the bad was good in this case!). </p>
+<p className='workP'> I really enjoyed designing this website as I got to stray away from convention and invoke my inner child. The development was just as fun. I got to use my game design skills to create the worlds worst age selector via a snake game and put my regex skills to good use with a really tough password creation form. </p>
+<p className='workP'> Scroll Troll has been one of my favourite projects that I have created and I think the idea is pretty popular. Since creating Scroll Troll, I have seen a bad password game and another site that uses intentionally bad UI to get under designers skin so this must be something people hate to love!</p>
 
+<Link to={'/Swiftify'} className="nextProject">Next Project:
+<br />
+<em className='scrollNext'>Swifity</em>
+
+</Link>
 </main>
+
+
 
         </div>
     )
