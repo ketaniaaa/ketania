@@ -10,10 +10,27 @@ import contrast from '../assets/scrolltroll/contrast.png';
 import { Link } from 'react-router-dom';
 
 
+
 export default class ScrollTroll extends Component {
   render() {
     return (
+   
        <div className='h-entry workMain'>
+           {/* <Helmet>
+          <title> Scroll Troll</title>
+        <meta name='author' content='Ketania Govender'/>
+          <meta name="description" content="The design process of Scroll Troll"/>
+   
+    <meta property="og:site_name" content="Ketania Govender" />
+    <meta property="og:title" content="Scroll Troll " />
+    <meta property="og:type" content="website" />
+     <meta
+      property="og:image"content="https://github.com/ketaniaaa/ketania/src/assets/K.G.png"/>
+    <meta property="og:image:alt" content="Ketania Govender Logo" />
+    <meta
+      property="og:url" content="https://ketaniaaa.github.io/Ketania/scrolltroll"/>
+       <meta name="keywords" content="style guide, wireframes, lowfidelity wireframes, user flows, ixd, UXUI, Portfolio, react, front-end development, desing, illustration"/>
+      </Helmet> */}
         <img src={Banner} alt="Heads Up banner" className='workBanner' />
 <a href="https://ketaniaaa.github.io/scrolltroll/" target='_blank' rel="noreferrer" className='demoLink'> Demo</a>
 <main className='workContent'>
