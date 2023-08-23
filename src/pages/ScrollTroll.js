@@ -57,13 +57,13 @@ export default class ScrollTroll extends Component {
   <p className='overviewSumSt'>UX and UI Design, Development, Illustration</p>
 
    <p className='overviewTitleSt'>Project Duration:</p>
-  <p className='overviewSum'>October 2022 - November 2022 (4 Weeks)</p>
+  <p className='overviewSum'>June 2023 - July 2023 (8 Weeks)</p>
 
    <p className='overviewTitleSt'>Tools:</p>
-  <p className='overviewSumSt'>Figma, Adobe Illustrator, Procreate, Google forms, React Native, Tensorflow, PyTorch, Expo</p>
+  <p className='overviewSumSt'>Figma, Adobe Illustrator, Procreate, ReactJS</p>
 
    <p className='overviewTitleSt'>Deliverables:</p>
-  <p className='overviewSumSt'>Proof of concept app prototype and website</p>
+  <p className='overviewSumSt'>Internet Artwork via react site</p>
 </section>
 
 <section className='sectionSTTitle sectionA'>

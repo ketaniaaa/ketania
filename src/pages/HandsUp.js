@@ -97,22 +97,22 @@ Despite being one of South Africa’s official languages, the resources for lear
   <p className='intCardDes'>providing a large list of words in SASL is overwhelming for beginners and only accounts for literal translation instead of phrase fluency.</p>
 </section>
 <section className='intCard'>
-    <p className='intCardNum'>Interview Insight #1</p>
-  <p className='intCardTitle'>Dictionaries are not helpful for learning</p>
-  <p className='intCardDes'>providing a large list of words in SASL is overwhelming for beginners and only accounts for literal translation instead of phrase fluency.</p>
+    <p className='intCardNum'>Interview Insight #2</p>
+  <p className='intCardTitle'>There is no progression tracking </p>
+  <p className='intCardDes'>New learners cannot test their skills or see how much they have learnt. This results in a lack of motivation to continue learning.</p>
 </section>
 </article>
 
 <article className='interviewCards'>
 <section className='intCard'>
-  <p className='intCardNum'>Interview Insight #1</p>
-  <p className='intCardTitle'>Dictionaries are not helpful for learning</p>
-  <p className='intCardDes'>providing a large list of words in SASL is overwhelming for beginners and only accounts for literal translation instead of phrase fluency.</p>
+  <p className='intCardNum'>Interview Insight #3</p>
+  <p className='intCardTitle'>Feedback and checking of signing is important</p>
+  <p className='intCardDes'>Learners would like to know if their hand position and signing is correct.</p>
 </section>
 <section className='intCard'>
-    <p className='intCardNum'>Interview Insight #1</p>
-  <p className='intCardTitle'>Dictionaries are not helpful for learning</p>
-  <p className='intCardDes'>providing a large list of words in SASL is overwhelming for beginners and only accounts for literal translation instead of phrase fluency.</p>
+    <p className='intCardNum'>Interview Insight #4</p>
+  <p className='intCardTitle'>Not enjoyable for younger learners.</p>
+  <p className='intCardDes'>Most learning methods that already exist do not account for younger users in both content and design of learning materials </p>
 </section>
 </article>
 <p className='workP'>After understanding the pain points of potential users, I began designing with the knowledge of features that should be prioritised. These include a test feature to give users feedback, grouping phrases into digestible lessons, progress tracking of a curriculum and bright and interesting colours to attract a younger audience.</p>
