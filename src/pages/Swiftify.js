@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Banner from '../assets/scrolltroll/tsbana.png';
 
 export default class Swiftify extends Component {
   render() {
