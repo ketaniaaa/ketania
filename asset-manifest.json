@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ketania/static/css/main.68d376da.css",
-    "main.js": "/ketania/static/js/main.cf1ac456.js",
+    "main.js": "/ketania/static/js/main.f140ac0e.js",
     "static/js/787.c98ac3af.chunk.js": "/ketania/static/js/787.c98ac3af.chunk.js",
     "static/media/hero.png": "/ketania/static/media/hero.9829f2b6937b30b7de6f.png",
     "static/media/hfsc.png": "/ketania/static/media/hfsc.07d389d6273112ee1b8a.png",
@@ -32,11 +32,11 @@
     "static/media/futura medium bt.ttf": "/ketania/static/media/futura medium bt.4e762c29ef7b44ca51cb.ttf",
     "index.html": "/ketania/index.html",
     "main.68d376da.css.map": "/ketania/static/css/main.68d376da.css.map",
-    "main.cf1ac456.js.map": "/ketania/static/js/main.cf1ac456.js.map",
+    "main.f140ac0e.js.map": "/ketania/static/js/main.f140ac0e.js.map",
     "787.c98ac3af.chunk.js.map": "/ketania/static/js/787.c98ac3af.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68d376da.css",
-    "static/js/main.cf1ac456.js"
+    "static/js/main.f140ac0e.js"
   ]
 }
