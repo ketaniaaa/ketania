@@ -22,6 +22,7 @@ class App extends Component {
 
         <Navbar />
         <Routes>
+          <Route index element={<Home />} />
           <Route exact path="/" element={<Home />} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Work" element={<Work />} />
