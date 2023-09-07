@@ -14,6 +14,8 @@ import Swiftify from './pages/Swiftify';
 //Component Imports 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
+import NoPage from './pages/NoPage';
 class App extends Component {
   render(){
     return (
@@ -23,7 +25,7 @@ class App extends Component {
         <Navbar />
         <Routes>
           <Route index element={<Home />} />
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Home" element={<Home />} />
           <Route exact path="/About" element={<About />} />
           <Route exact path="/Work" element={<Work />} />
           <Route exact path="/Contact" element={<Contact />} />
@@ -32,6 +34,8 @@ class App extends Component {
            <Route exact path="/HandsUp" element={<HandsUp />} />
           <Route exact path="/ScrollTroll" element={<ScrollTroll />} />
             <Route exact path="/Swiftify" element={<Swiftify />} />
+            {/* 404 */}
+           <Route exact path="*" element={<NoPage />} />
         
           
         </Routes>

@@ -40,7 +40,7 @@ class Navbar extends Component {
       <>
      {/* <nav className={`navBar ${isNavbarVisible ? 'navbar-visible' : 'navbar-hidden'}`}> */}
      <nav className='navBar'>
-     <Link to='/' className='p-name navTitle'>K.G</Link>
+     <Link to='/Home' className='p-name navTitle'>K.G</Link>
 
      <ul className='navigation navUL'>
      <li className='list navLi'><Link to='/Work' className='u-url navLink'> work</Link></li>

@@ -10,6 +10,7 @@ class Home extends Component {
   render(){
     return (
       <div className='home'>
+        
     <main className='homeMain h-card'>
     <section className='homeText'>
 <p className='heroTitle'>Hi! I'm <em className='underlinedName'>Ketania</em> , <br />
