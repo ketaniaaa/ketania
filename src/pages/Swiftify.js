@@ -8,7 +8,7 @@ export default class Swiftify extends Component {
       <div className='workContent'>
         <section className='sectionSTTitle sectionA'>
   <p className='sectionSTName'>Swiftify</p>
-  <p className='sectionHupTitle'>Case Study Coming Soon</p>
+  <p className='sectionHupTitle'>Coming Soon</p>
 
   <p className='workP'> Check out the site <a href="https://swiftify.netlify.app/" target="_blank" rel="noreferrer"> here</a>!</p>
 
